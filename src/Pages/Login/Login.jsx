@@ -23,7 +23,7 @@ function Login() {
             setError("Please Fill All The Fields.")
         }else{
             try{
-                let res = await axios.get("http://localhost:5000/users/"+email)
+                let res = await axios.get("https://beekeeper-blogs.vercel.app/api/json/users/"+email)
                 console.log(res.data.id)
                 if(res.data.id === email && res.data.pass === pass){
                     localStorage.setItem("email",res.data.id);

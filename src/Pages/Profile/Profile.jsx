@@ -23,7 +23,7 @@ function Profile() {
     const deleteAccount = async ()=>{
         try{
             let id = localStorage.getItem("email")
-            let res = await axios.delete("http://localhost:5000/users/"+id)
+            let res = await axios.delete("https://beekeeper-blogs.vercel.app/api/json/users/"+id)
             console.log(res)
             localStorage.clear()
             navigate("/");
