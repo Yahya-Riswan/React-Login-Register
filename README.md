@@ -13,7 +13,7 @@ A minimalist blog platform for beekeeping enthusiasts. Features a simple landing
 
 ## 🧑‍💻 Tech Stack
 
-- Frontend: HTML/CSS/JS (or your preferred framework)
+- Frontend: React.js
 - Backend: [`json-server`](https://github.com/typicode/json-server)
 - Package Manager: npm
 
