@@ -1,6 +1,6 @@
 # 🐝 Beekeeper Blog
 
-![Logo](./src/Assets/Logo.png)
+![Logo](./src/Assets/logo_bg.png)
 
 A minimalist blog platform for beekeeping enthusiasts. Features a simple landing page with Login and Register buttons. User authentication is powered by a JSON-based mock API using `json-server`.
 
